@@ -28,11 +28,14 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `user` (
-  `idavion` int NOT NULL,
-  `designation` varchar(255) DEFAULT NULL,
-  `capacite` int DEFAULT NULL,
-  `dateAchat` date DEFAULT NULL,
-  `idconstructeur` int DEFAULT NULL
+  `iduser` int NOT NULL,
+  `nomu` varchar(255) DEFAULT NULL,
+  `prenomu` int DEFAULT NULL,
+  `adresseu` date DEFAULT NULL,
+  `CPu` int DEFAULT NULL,
+  'villeu' varchar(255),
+  'emailu' varchar(255),
+  'telephoneu' int(10),
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
