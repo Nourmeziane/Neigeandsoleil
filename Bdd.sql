@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Structure de la table `avion`
 --
 
-CREATE TABLE `avion` (
+CREATE TABLE `user` (
   `idavion` int NOT NULL,
   `designation` varchar(255) DEFAULT NULL,
   `capacite` int DEFAULT NULL,
