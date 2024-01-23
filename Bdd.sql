@@ -33,7 +33,7 @@ CREATE TABLE `proprietaire` (
 CREATE TABLE `activites` (
   `codeAC` int NOT NULL AUTO_INCREMENT,
   `nomAC` varchar(255),
-  `prixAC` decimal(10,2) DEFAULT NULL,
+  `prixAC` decimal DEFAULT NULL,
   PRIMARY KEY (`codeAC`)
 ) 
 
