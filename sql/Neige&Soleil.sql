@@ -1,3 +1,6 @@
+-- Database
+CREATE DATABASE 'Neigeandsoleil';
+
 -- User table structure
 CREATE TABLE `user` (
   `iduser` int NOT NULL AUTO_INCREMENT,
