@@ -3,15 +3,15 @@
 <?php
 
 $action = $_GET[''] ?? '';
-$idavion = $_GET['idavion'] ?? '';
+$iduser = $_GET['iduser'] ?? '';
 
 switch ($action) {
     case 'sup':
-        $unControleur->deleteAvion($idavion);
+        $unControleur->deleteUser($iduser);
         header("Location: index.php?page=2");
         exit;
     case 'edit':
-        $avion = $unControleur->selectWhereAvion($idavion);
+        $user = $unControleur->selectWhereUser($iduser);
         break;
 }
 
