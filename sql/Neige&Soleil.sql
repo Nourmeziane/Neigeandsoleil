@@ -1,5 +1,5 @@
 -- Database
-CREATE DATABASE 'Neigeandsoleil';
+CREATE DATABASE Neigeandsoleil
 
 -- User table structure
 CREATE TABLE `user` (
@@ -12,7 +12,7 @@ CREATE TABLE `user` (
   `email` varchar(255),
   `telephone` int NOT NULL,
   PRIMARY KEY (`iduser`)
-) 
+);
 
 -- Contract table structure
 CREATE TABLE `contrat` (
@@ -22,7 +22,7 @@ CREATE TABLE `contrat` (
   `etatCon` varchar(255) NOT NULL,
   `description` text,
   PRIMARY KEY (`numC`)
-) 
+);
 
 -- Owner table structure
 CREATE TABLE `proprietaire` (
@@ -30,7 +30,7 @@ CREATE TABLE `proprietaire` (
   `dateDebCollab` date DEFAULT NULL,
   `dateFinCollab` date DEFAULT NULL,
   PRIMARY KEY (`idproprietaire`)
-) 
+);
 
 -- Activities table structure
 CREATE TABLE `activites` (
@@ -38,7 +38,7 @@ CREATE TABLE `activites` (
   `nomAC` varchar(255),
   `prixAC` decimal DEFAULT NULL,
   PRIMARY KEY (`codeAC`)
-) 
+);
 
 -- Stations table structure
 CREATE TABLE `stations` (
@@ -48,13 +48,13 @@ CREATE TABLE `stations` (
   `CP` int NOT NULL,
   `ville` varchar(255) NOT NULL,
   PRIMARY KEY (`codeSta`)
-) 
+);
 
 -- Region table structure
 CREATE TABLE `region` (
   `codeREG` int NOT NULL AUTO_INCREMENT,
   `nomReg` varchar(255) NOT NULL,
   PRIMARY KEY (`codeREG`)
-)
+);
 
 

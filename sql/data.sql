@@ -4,7 +4,7 @@ VALUES (1, 'Boeing', 'États-Unis', 'Actif'),
        (2, 'Airbus', 'France', 'Actif');
 
 -- Insertion dans la table Avion
-INSERT INTO Avion (idavion, designation, capacite, dateAchat, idconstructeur)
+INSERT INTO User (iduser, designation, capacite, dateAchat, idconstructeur)
 VALUES (1, 'Boeing 737', 150, '2022-05-10', 1),
        (2, 'Airbus A320', 180, '2022-06-15', 2),
        (3, 'Boeing 747', 350, '2022-04-20', 1);
@@ -25,5 +25,5 @@ VALUES (1, '2022-07-05', 'Paris - New York', 1, 1, 2),
 -- Déchargement des données de la table `utilisateur`
 --
 
-INSERT INTO `utilisateur` (`id`, `email`, `mdp`, `salt`, `role`) 
+INSERT INTO utilisateur (`id`, `email`, `mdp`, `salt`, `role`) 
 VALUES (1, 'a@gmail.com', '98a123340ef5de2c477608e0db1abd21f84eb9525261f3bed1b0d10fac6f88df', 'VmCILMZdKZtwvydd', 'admin');
